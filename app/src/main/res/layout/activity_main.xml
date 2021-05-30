@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_20sdp"
+    android:paddingBottom="@dimen/_20sdp"
+
+    tools:context=".ui.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+
+    >
+    <LinearLayout
+        android:id="@+id/li_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_130sdp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@drawable/shapehome"
+        android:backgroundTint="#4DA6F4"
+        android:layout_margin="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/picture" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="صور القدس"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_130sdp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/about_jerusalem"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/shapehome"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/aboutjerusalem" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="حول القدس"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        >
+        <LinearLayout
+            android:id="@+id/li_vedio"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_130sdp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/shapehome"
+            android:backgroundTint="#BBCC19"
+            android:layout_margin="@dimen/_10sdp"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/movie" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="أقدم فيديو للقدس"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_130sdp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#B44BF6"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/shapehome"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/speak" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="دردشة"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15ssp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
