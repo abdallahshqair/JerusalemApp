@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/Theme.JerusalemApp">
+        <activity android:name=".ui.NewsActivity"></activity>
         <activity android:name=".ui.SplshActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,9 +25,7 @@
             android:screenOrientation="landscape" />
         <activity android:name=".ui.Gallery" />
         <activity android:name=".ui.AboutJerusalem" />
-        <activity android:name=".ui.MainActivity">
-
-        </activity>
+        <activity android:name=".ui.MainActivity"></activity>
     </application>
 
 </manifest>

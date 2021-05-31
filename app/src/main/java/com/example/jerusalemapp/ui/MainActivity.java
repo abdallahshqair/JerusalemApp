@@ -41,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        findViewById(R.id.news).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), NewsActivity.class));
+
+            }
+        });
+
         findViewById(R.id.chat).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
